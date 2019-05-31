@@ -1,0 +1,9 @@
+CREATE DATABASE User;
+CREATE TABLE User(
+    Username VARCHAR(20) PRIMARY KEY NOT NULL,
+    Password VARCHAR(40) NOT NULL
+);
+
+INSERT INTO User VALUES('test2','d5445758acd374c0155aba6f8c2b956fb9081c17'); --SHA-1:sasugode
+INSERT INTO User VALUES('admin','5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8'); --SHA-1:password
+INSERT INTO User VALUES('administrator','3040465e21fe97ea02918b07d2ceefc693ed2394'); --SHA-1:uprank3d
