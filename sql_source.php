@@ -1,9 +1,15 @@
 <?php
+    /*
+    CREATE TABLE User(
+        Username VARCHAR(20) PRIMARY KEY NOT NULL,
+        Password VARCHAR(40) NOT NULL
+    );
 
-//	ini_set("log_errors", 1);
-//	ini_set("error_log", "/tmp/err-r.log");
+    The password is hashed in the database using a broken hash function, 
+    you will have to crack the password using a brute force tool.
 
-//	ini_set('error_reporting', E_ALL);
+    The real password will have maximum length equal to 8.
+    */
     $posted_username = $_POST["username"];
     $debug = $_POST["debug"];
 
